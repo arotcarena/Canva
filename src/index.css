@@ -1,0 +1,45 @@
+:root {
+  --black: rgb(58, 58, 58);
+  --lightgrey: rgb(168, 168, 168);
+  --verylightgrey: rgb(190, 190, 190);
+}
+
+*, *::after, *::before {
+  font-family: 'Montserrat';
+  box-sizing: border-box;
+  color: var(--black);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.icon-right, .icon-left {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.i-right {
+  margin-left: 4px;
+}
+
+.i-left {
+  margin-right: 4px;
+}

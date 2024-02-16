@@ -1,0 +1,10 @@
+.nav-profile {
+    background-color: rgb(0, 126, 182);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

@@ -1,0 +1,64 @@
+.header {
+  height: 72px;
+  box-shadow: 0 0 3px var(--verylightgrey);
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  gap: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #FFF;
+}
+
+.nav-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+}
+
+
+.searchbar {
+  width: 240px;
+  height: 38px;
+  padding: 0 10px;
+  border-radius: 4px;
+  border: solid 1px var(--verylightgrey);
+}
+
+.banner {
+  height: 248px;
+  margin: 30px;
+  background-color: var(--verylightgrey);
+  border-radius: 8px;
+}
+
+.sidebar {
+  background-color: var(--verylightgrey);
+  position: fixed;
+  top: 72px;
+  left: 0;
+  width: 260px;
+  bottom: 0;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+
+.page {
+  display: flex;
+}
+
+.main {
+  margin-top: 72px;
+  width: 100%;
+}
+
+.main.with-side {
+  margin-left: 260px;
+}
+
